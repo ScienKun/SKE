@@ -20,8 +20,7 @@ SKS.CharacterAlaPlaceDeLaFace = SKS.CharacterAlaPlaceDeLaFace || {};
  *
  * @plugindesc v1.0a Supprime les faces dans le menu.
  *
- * 
- * =================================== CHANGELOG ===============================
+ * @help =================================== CHANGELOG ===============================
  * 
  * Version 1.0a : 21/01/2018 : 18h48
  * Plugin terminé
@@ -34,7 +33,7 @@ SKS.CharacterAlaPlaceDeLaFace = SKS.CharacterAlaPlaceDeLaFace || {};
 (function () {
     "use strict";
     // Initialisation des paramètres pour le plugin SKE_Core :
-    SKS.SleepStat.parameters = PluginManager.parameters('SKS_CharacterAlaPlaceDeLaFace');
+    SKS.CharacterAlaPlaceDeLaFace.parameters = PluginManager.parameters('SKS_CharacterAlaPlaceDeLaFace');
     SKS.Param = SKS.Param || {};
     
     Window_MenuStatus.prototype.drawItemImage = function(index) {

@@ -105,5 +105,14 @@ SKE.Core.system = {
         }
     };
     
+    // =================================== GAIN LEVEL OPTION ======================================================
+    
+    
+    SKE.Core.levelUp = Game_Actor.prototype.levelUp;
+    Game_Actor.prototype.levelUp = function() {
+        SKE.Core.levelUp.call(this);
+        this.recoverAll();
+    };
+    
 })();
 // Fin du plugin.

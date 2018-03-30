@@ -1,5 +1,6 @@
 [
 null,
-{"id":1,"expanded":false,"name":"TITLE MAP","order":1,"parentId":0,"scrollX":819,"scrollY":461},
-{"id":2,"expanded":false,"name":"GAME MAP 001","order":2,"parentId":0,"scrollX":819,"scrollY":461}
+{"id":1,"expanded":true,"name":"TITLE MAP","order":1,"parentId":0,"scrollX":819,"scrollY":481},
+{"id":2,"expanded":true,"name":"GAME MAP 001","order":3,"parentId":0,"scrollX":819,"scrollY":481},
+{"id":3,"expanded":false,"name":"MAP TRANSITION","order":2,"parentId":1,"scrollX":819,"scrollY":481}
 ]
